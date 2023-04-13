@@ -1,7 +1,9 @@
 # python-development-environment
 
 ## Summary 
-This is a repository to create a basic development environment for coding in Python. [Poetry](https://python-poetry.orgs/docs) is used to manage Python dependencies for your application (boto3, requests, etc). You can specify groups of dependencies that are needed to run different tools in the repo. Typically, the groups are packages necessary to run a production application as well as simplify the development process (code formatters and linters).
+This is a repository to create a basic development environment for coding in Python. 
+
+[Poetry](https://python-poetry.org/docs) is used to manage Python dependencies for your application (boto3, requests, etc). You can specify groups of dependencies that are needed to run different tools in the repo. Typically, the groups are packages necessary to run a production application as well as simplify the development process (code formatters and linters).
 
 At the top of the repo is the [`pyproject.toml`](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/) file.
 
