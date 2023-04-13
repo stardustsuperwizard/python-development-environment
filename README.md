@@ -1,4 +1,4 @@
-# python-development-environment
+# Python Development Environment
 
 ## Summary 
 This is a repository to create a basic development environment for coding in Python. 
