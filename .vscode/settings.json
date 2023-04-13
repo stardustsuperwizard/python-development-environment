@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--config=pyproject.toml"
+    ],
+    "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+    "isort.args": [
+        "--settings-path=pyproject.toml"
+    ],
+    "isort.check": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstylePath": "${workspaceFolder}/.venv/bin/pydocstyle"
+}
